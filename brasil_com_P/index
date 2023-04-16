@@ -1,0 +1,18 @@
+primeiraLetra = "c";
+segundaLetra = "v";
+palavras = ["aveia", "manha","ave"];
+
+let palavra = false;
+    
+    for (let letra of palavras){
+        if (letra[0] == primeiraLetra && letra[1] == segundaLetra){
+            palavra = true;
+            console.log(letra);
+            
+        } 
+    }
+        if (palavra == false){
+            console.log("NENHUMA");
+        }
+        
+        
